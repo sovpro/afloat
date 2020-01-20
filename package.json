@@ -1,7 +1,7 @@
 {
   "name": "@sovpro/afloat",
-  "version": "1.0.0",
-  "description": "Flaot an integer value",
+  "version": "1.0.1",
+  "description": "Float an integer value",
   "main": "afloat.js",
   "scripts": {
     "test": "istanbul cover test"
