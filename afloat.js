@@ -7,6 +7,6 @@ function afloat (val) {
   let num = Math.trunc (Math.abs (val))
   if (isNaN (num) || num === Infinity) return
   if (num === 0) return 0
-  let fac = Math.ceil (Math.log10 (num))
+  let fac = Math.ceil (Math.log10 (num)) || 1
   return num / Math.pow (10, fac)
 }

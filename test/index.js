@@ -47,7 +47,7 @@ assertWithInfo (
 
 assertWithInfo (
     afloat (1)
-  , 1
+  , 0.1
   , 'The result of afloating 1 should be 0.1'
 )
 
@@ -68,5 +68,3 @@ assertWithInfo (
   , undefined
   , 'The result of afloating undefined should be undefined'
 )
-
-
