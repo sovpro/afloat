@@ -8,3 +8,10 @@ Float an integer value.
 let value = afloat (987654321.1)
 // value will be: 0.987654321
 ```
+
+## Preserve floating digits
+
+```js
+let value = afloat (987654321.1, true)
+// value will be: 0.9876543211
+```
